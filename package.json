@@ -6,6 +6,7 @@
     "scripts": {
         "lint": "eslint .",
         "dev": "vite",
+        "build": "vite build",
         "build:gh": "cross-env DEPLOY_TARGET=GH vite build",
         "build:vercel": "vite build",
         "preview:gh": "cross-env DEPLOY_TARGET=GH vite preview",
